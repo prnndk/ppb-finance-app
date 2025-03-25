@@ -75,7 +75,7 @@ class _FinanceListState extends State<FinanceList> {
             SizedBox(height: 5.0),
             Text(
               'Finance Record',
-              style: GoogleFonts.montserrat(
+              style: GoogleFonts.plusJakartaSans(
                 textStyle: TextStyle(
                   fontSize: 20.0,
                   color: Colors.black,
@@ -97,7 +97,7 @@ class _FinanceListState extends State<FinanceList> {
                 ),
                 child: Text(
                   'Buat Data Baru',
-                  style: GoogleFonts.tektur(
+                  style: GoogleFonts.plusJakartaSans(
                     textStyle: TextStyle(fontSize: 16),
                     color: Colors.white,
                   ),
@@ -136,7 +136,7 @@ class _FinanceListState extends State<FinanceList> {
             return AlertDialog(
               title: Text(
                 'Buat data baru',
-                style: GoogleFonts.tektur(textStyle: TextStyle(fontSize: 16)),
+                style: GoogleFonts.plusJakartaSans(textStyle: TextStyle(fontSize: 16)),
               ),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
@@ -160,7 +160,7 @@ class _FinanceListState extends State<FinanceList> {
                   SizedBox(height: 10),
                   Text(
                     'Pilih Tipe Pencatatan',
-                    style: GoogleFonts.montserrat(
+                    style: GoogleFonts.plusJakartaSans(
                       textStyle: TextStyle(fontSize: 16),
                     ),
                   ),
@@ -262,7 +262,7 @@ class _FinanceListState extends State<FinanceList> {
           (context) => AlertDialog(
             title: Text(
               'Ubah Data',
-              style: GoogleFonts.roboto(textStyle: TextStyle(fontSize: 18)),
+              style: GoogleFonts.plusJakartaSans(textStyle: TextStyle(fontSize: 18)),
             ),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(10),
@@ -284,7 +284,7 @@ class _FinanceListState extends State<FinanceList> {
                 SizedBox(height: 10),
                 Text(
                   'Pilih Tipe Pencatatan',
-                  style: GoogleFonts.montserrat(
+                  style: GoogleFonts.plusJakartaSans(
                     textStyle: TextStyle(fontSize: 16),
                   ),
                 ),
